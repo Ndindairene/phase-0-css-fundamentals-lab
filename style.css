@@ -4,9 +4,28 @@ body {
   margin: 0;
 }
 h1 {text-align: center;}
-<div> 
-   <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group" class="centre">
-</div>
-img{display: block;
-    margin: 0 auto;
-    width: 50%}
+nav{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;}
+
+nav a{background-color: grey;}
+
+#featured-property{
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+
+#featured-property p{
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  #details div{
+    float: left;
+    text-align: center;
+    width: 25%;
+    background-color: red;
+  }
